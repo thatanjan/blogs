@@ -13,3 +13,21 @@
 - The JavaScript might be big and might take some time depends on how big the files are. Parsing javascript is heavier task than parsing HTML and CSS. That's why we put script tag at the bottom of the HTML.
 
 - After the parsing is completed, now the webpage is now both viewable and interactive.
+
+### Server Side Rendering Pros
+
+- Great SEO. Because the content is already present on the HTML.
+
+- Initial load is fast. Not the whole application data is not served by the browser. Only the necessary data for the page is sent.
+
+- User doesn't have to see blank page on the initial load. Because the content is rendered by the HTML not JavaScript.
+
+- No need of external libraries or frameworks.
+
+### Server Side Rendering cons
+
+- Frequent server calls.
+
+- Slow navigation to any routes.
+
+- Page refresh while visiting any routes (not necessarily).
